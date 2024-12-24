@@ -1,0 +1,25 @@
+.card{
+    width: 100%;
+    max-width: 9em;
+    border-radius: 0.8em;
+    overflow: hidden;
+    background-color: var(--color-darkpurple);
+}
+
+.header{
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+
+.body{
+    padding: 1em 0.7em 2em;
+}
+.name{
+    font-size: 1em;
+    font-weight: 600;
+}
+.alias{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: white;
+}

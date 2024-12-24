@@ -1,0 +1,98 @@
+.movie_container{
+    background-position: center;
+    background-size: cover;
+    padding: 1em 1em 2em;
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    align-items: center;
+    background-color: #0009;
+    backdrop-filter: blur(1px);
+    padding: 2em 1em 3m;
+}
+.img_container{
+    width: 100%;
+    max-width: 18em;
+}
+.image{
+    border-radius: 0.8em;
+}
+.body{
+    font-size: 1em ;
+    padding: 1em;
+    width: 100%;
+    max-width: 20em;
+}
+
+.tittle{
+    font-size: 1.2em;
+    font-weight: 500;
+    &span{
+        font-weight: 300;
+        font-size: 0.7em;
+    }
+}
+.list-genres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+
+}
+.genre {
+    font-size: 0.7em;
+    &::after {
+        content: ',';
+    }
+    &:last-child:after {
+        content:''; 
+    }
+}
+.duration{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.description_container{
+    margin-bottom: 0.5em;
+}
+.description_title{
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.description{
+    font-size: 0.7em;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.footer{
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+}
+.star{
+    font-size: 1em
+}
+.vote{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.vote_count{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+@media screen and (min-width: 700px){
+    .body{
+        font-size: 1.1em;
+        padding-left: 1em;
+    }
+}
+@media screen and (min-width: 900px){
+    .body{
+        font-size: 1.3em;
+    }
+}

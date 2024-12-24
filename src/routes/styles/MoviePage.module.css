@@ -1,0 +1,18 @@
+.btn{
+    position: absolute;
+    z-index: 1;
+    top: 1em;
+    left: 1em;
+    font-size: 1.8em;
+    width: 1.9em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--color-turquoise);
+    border: 2px solid currentColor;
+    opacity: 0.7;
+    transition: transform 150ms ease;
+    &:hover{
+        filter: brightness(1.2);
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,21 @@
+.input{
+    font-size: 1em;
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    background-color: var(--color-darkpurple);
+    color: var(--color-white);
+    border: 1px solid var(--color-turquoise);
+}
+.btn{
+    font-size: 1em;
+    margin-left: 1em;
+    width: 7em ;
+    padding: 0.36em 1em;
+    border-radius: 0.5em;
+    background-color: var(--color-turquoise);
+    color: var(--color-black);
+    font-weight: 500;
+    &hover{
+        filter: brightness(1.2);
+    }
+}

@@ -1,0 +1,8 @@
+.select{
+    font-size: 0.9em;
+    padding: 0.3em 1.5em;
+    border-radius: 0.5em ;
+    background-color: var(--color-darkpurple);
+    color: var(--color-white);
+    border: 1px solid currentColor;
+}

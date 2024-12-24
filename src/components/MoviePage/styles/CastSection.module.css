@@ -1,0 +1,15 @@
+.section{
+    padding: 2em 1em 3em;
+}
+.title{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}

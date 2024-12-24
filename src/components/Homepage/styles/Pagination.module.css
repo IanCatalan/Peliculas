@@ -1,0 +1,38 @@
+.pagination{
+    display: flex;
+    gap: 0.3em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+}
+.page_container{
+    display: flex;
+    gap: 0.2em;
+}
+.btn{ 
+    font-size: 0.9em;
+    padding: 0.4em 0.8em;
+    border-radius: 0.3em;
+    font-weight: 500;
+    background-color: var(--color-darkpurple);
+    color: var(--color-white);
+    &hover{
+        filter: brightness(1.2);
+    }
+}
+.prev {
+    background-color: var(--color-turquoise);
+    color: var(--color-black);
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.next{
+    background-color: var(--color-turquoise);
+    color: var(--color-black);
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.btn_active{
+    background-color: var(--color-turquoise);
+}
