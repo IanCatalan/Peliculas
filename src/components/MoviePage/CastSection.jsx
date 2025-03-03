@@ -16,7 +16,6 @@ const CastSection = ({ movieId }) => {
         Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNGY4MTZlNzkwOTNkZjVkMmE5MWQwYTVmNmRmMTAyNSIsIm5iZiI6MTczMzIzMTMxNC45MDgsInN1YiI6IjY3NGYwMmQyMTIyMmFkYmI2M2RmMTkwZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ORuko-zAsuNPvUihUsUAb_HSBepY9G-xodamfFCenOM'
   }
 };
-console.log(movieId)
 
     const url = `https://api.themoviedb.org/3/movie/${movieId}/credits`;
     if (movieId) {

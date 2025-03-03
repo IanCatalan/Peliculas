@@ -8,6 +8,7 @@ import styles from "./styles/MoviePage.module.css"
 const MoviePage = () => {
     const [movie, setMovie] = useState()
     const {id} = useParams()
+    const navigate = useNavigate()
     useEffect(() => {
         const options = {
             params: {
@@ -24,7 +25,7 @@ const MoviePage = () => {
     }, [id])
     
     const url = `https://api.themoviedb.org/3/movie/${id}`
-    const navigate = useNavigate
+  
     const handleClick = () => {
       navigate ('/')
     }
